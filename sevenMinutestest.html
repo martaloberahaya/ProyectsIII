@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+
+	<style type="text/css">
+		.hidden{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div id="s1">
+
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+			<h2>Cognitive Test</h2></header>
+
+		<article>
+		<p>Thank you for choosing CEU University´s website to carry out your seven minute screen. First of all, lets talk a little bit about the evaluation.
+	   	The exercise is divided into three sections, which must be performed progressively.
+		The first part is made to evaluate your level of orientation, several simple questions will be asked. Next, your memory will be tested, some pictures will apperar and later on the subject must 
+		answer some questions about them. Finally, the third section is called clock drawing where the only required task is to draw a clock. 
+	   <p>*Note that the test will be timed</p>
+	   <p>*Once the test is completed the please download the results</p>
+		</article>
+	</div>
+
+	<div class="hidden" id="s2">
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+			<h2>Orientation Screen</h2></header>
+  
+		<article>
+		<br><br>
+  			<label for="month">1. What month are we in?:</label>
+	  		    <select id="month">
+	    			<option value="january">January</option>
+	    			<option value="february">February</option>
+	    			<option value="march">March</option>
+	    			<option value="april">April</option>
+					<option value="may">May</option>
+					<option value="june">June</option>
+					<option value="july">July</option>
+					<option value="august">August</option>
+					<option value="september">September</option>
+					<option value="october">October</option>
+					<option value="november">Novenber</option>
+					<option value="dicember">Dicember</option>
+  		     </select>
+	      <br><br>
+              <label for="day">2. What day of the month is it today?</label>
+  		   		<select id="day">
+	    			<option value="1">1</option>
+	    			<option value="2">2</option>
+	    			<option value="3">3</option>
+	    			<option value="4">4</option>
+					<option value="5">5</option>
+	    			<option value="6">6</option>
+	    			<option value="7">7</option>
+	    			<option value="8">8</option>
+					<option value="9">9</option>
+	    			<option value="10">10</option>
+	    			<option value="11">11</option>
+	    			<option value="12">12</option>
+					<option value="13">13</option>
+	    			<option value="14">14</option>
+	    			<option value="15">15</option>
+	    			<option value="16">17</option>
+					<option value="17">17</option>
+	    			<option value="18">18</option>
+	    			<option value="19">19</option>
+	    			<option value="20">20</option>
+					<option value="21">21</option>
+	    			<option value="22">22</option>
+	    			<option value="23">23</option>
+	    			<option value="24">24</option>
+					<option value="25">25</option>
+	    			<option value="26">26</option>
+	    			<option value="27">27</option>
+	    			<option value="28">28</option>
+					<option value="29">29</option>
+	    			<option value="30">30</option>
+	    			<option value="31">31</option>
+		  		</select>
+		<br><br>
+		  	<label for="year">3. What year are we in?:</label>
+  				<input type="text" id="year" placeholder="Eg: 2017">
+  		<br><br>
+			<label for="weekDay">4. What day of the week is it?:</label>
+  		    	<select id="weekDay">
+	    			<option value="monday">Monday</option>
+	    			<option value="tuesday">Tuesday</option>
+	    			<option value="wednesday">Wednesday</option>
+	    			<option value="thursday">Thursday</option>
+					<option value="friday">Friday</option>
+					<option value="saturday">Saturday</option>
+					<option value="sunday">Sunday</option>
+  		     	</select>
+		<br><br>
+			<label for="hour">5. What hour is it approximately?:</label>
+  				<input type="text" id="hour" placeholder="Eg: 16:45">
+  		<br><br>
+		</article>
+	</div>
+
+
+	<div class="hidden" id="s3">
+
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+			<h2>Memory Screen</h2></header>
+		<article>
+
+	   	<div class='row'>
+		<div class='column'>
+		<img src="https://image.shutterstock.com/image-photo/blue-wet-isabella-grapes-bunch-260nw-220836805.jpg" width="300" height="250"> 
+		
+		<img src="https://www.collinsdictionary.com/images/full/tiger_299825813.jpg" width="300" height="250"> 
+		
+		<br>
+		<img src="https://static8.depositphotos.com/1049680/1018/i/600/depositphotos_10182313-stock-photo-hand-symbol.jpg" width="300" height="250">
+
+		<img src="https://1i9wu42vzknf1h4zwf2to5aq-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/x_AN-1981_YthDeskPROF_o_s_.jpg" width="300" height="250">
+		<br>
+
+	        </div>
+		
+		<div class='column'>
+		   <br><br><br><br><br><br><br>
+		   <label for="fruit">1. There is a fruit amoung these pictures, which kind of fruit is it? </label>
+  			<br>
+			<input type="text" id="fruit">
+  		<br><br>
+		   <label for="animal">2. There is an animal amoung these pictures, which kind of animal is it? </label>
+  			<br>
+			<input type="text" id="animal" >
+		<br><br>
+		   <label for="bpart">3. There is a body part amoung these pictures, which body part is it? </label>
+  			<br>
+			<input type="text" id="bpart" >
+		<br><br>
+		   <label for="furniture">4. There is a piece of furniture amoung these pictures, which kind of furniture is it? </label>
+  			<br>
+			<input type="text" id="furniture" >
+		</div>
+	</article>	
+	</div>
+
+	<div class="hidden" id="s4">
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+			<h2>Memory Screen</h2></header>
+		<article>
+	   	<div class='row'>
+		<div class='column'>
+   
+		<img src="https://www.colorpsychology.org/es/wp-content/uploads/2019/07/azul-color.png" width="500" height="300">
+		<br>
+
+	        </div>
+		
+		<div class='column'>
+		   <br><br>
+		   <label for="fruit2">1. Which fruit could be seen in the previous slide? </label>
+  			<br>
+			<input type="text" id="fruit2" >
+  		<br><br>
+		   <label for="animal2">2. Which kind of animal could be seen in the previous slide? </label>
+  			<br>
+			<input type="text" id="animal2" >
+		<br><br>
+		   <label for="bpart2">3. Which body part could be seen in the previous slide? </label>
+  			<br>
+			<input type="text" id="bpart2" >
+		<br><br>
+		   <label for="furniture2">4. Which kind of furniture could be seen in the previous slide ? </label>
+  			<br>
+			<input type="text" id="furniture2" >
+		</div>
+	</article>
+	</div>
+
+	<div class="hidden" id="s5">
+		
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+			<h2>Memory Screen</h2>
+		</header>
+
+		<article>
+	   	<div class='row'>
+		<div class='column'>
+		   <img src="https://www.mundialdetornillos.com/images/Noticias/destornillador-herramienta-multifuncional-a360.jpg" width="300" height="250"> 
+		
+		<img src="https://www.shoelayers.com/image/cache/catalog/FLOSHEIM-270x270.jpg" width="300" height="250"> 
+		
+		<br>
+		<img src="https://i.blogs.es/98cdc8/voge-500r-1/450_1000.jpg" width="300" height="250">
+
+		<img src="https://sonicolor.es/5682-home_default/marktinez-esg-39_r-guitarra-clasica.jpg" width="300" height="250">
+		<br>
+
+	        </div>
+		
+		<div class='column'>
+		   <br><br><br><br><br><br><br>
+		   <label for="tool">1. There is a tool amoung these pictures, which kind of tool is it? </label>
+  			<br>
+			<input type="text" id="tool" >
+  		<br><br>
+		   <label for="clothes">2. There is a clothing item amoung these pictures, which kind of clothing item is it? </label>
+  			<br>
+			<input type="text" id="clothes" >
+		<br><br>
+		   <label for="instrument">3. There is a musical instrument amoung these pictures, which musical instrument is it? </label>
+  			<br>
+			<input type="text" id="instrument">
+		<br><br>
+		   <label for="vehicle">4. There is some kind of a vehicle amoung these pictures, which kind of vehicle is it? </label>
+  			<br>
+			<input type="text" id="vehicle" >
+		</div>
+	</article>
+	</div>
+
+	<div class="hidden" id="s6">
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+			<h2>Memory Screen</h2>
+		</header>
+		<article>
+	  		<div class='row'>
+				<div class='column'>
+   
+					<img src="https://www.colorpsychology.org/es/wp-content/uploads/2019/07/azul-color.png" width="500" height="300">
+					<br>
+
+	        </div>
+		
+			<div class='column'>
+		   	<br><br>
+			   	<label for="clothes2">1. Which clothing item could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="clothes2">
+	  			<br><br>
+			   	<label for="tool2">2. Which kind of tool could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="tool2">
+				<br><br>
+			   	<label for="instrument2">3. Which musical instrument could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text2" id="instrument2">
+				<br><br>
+			   	<label for="vehicle2">4. Which kind of vehicle could be seen in the previous slide ? </label>
+	  				<br>
+					<input type="text" id="vehicle2">
+			</div>
+		</article>
+
+	</div>
+
+	<div class="hidden" id="s7">
+		<header>
+			<h2>Memory Screen</h2>
+		</header>
+
+		<article>
+	   <div class='row'>
+		<div class='column'>
+		<img src="https://m.media-amazon.com/images/I/61tYyAHSriL._AC_SX466_.jpg" width="300" height="250"> 
+		
+		<img src="https://www.elhuertodelabuelo.es/37-large_default/tomate-cana-andaluz.jpg" width="300" height="250"> 
+		
+		<br>
+		<img src="https://www.collinsdictionary.com/images/thumb/spider_630704852_250.jpg" width="300" height="250">
+
+		<img src="https://d25rq8gxcq0p71.cloudfront.net/dictionary-images/324/bowl.jpg" width="300" height="250">
+		<br>
+
+	        </div>
+		
+		<div class='column'>
+		   <br><br><br><br><br><br><br>
+		   <label for="toy">1. There is a toy amoung these pictures, which kind of toy is it? </label>
+  			<br>
+			<input type="text" id="toy">
+  		<br><br>
+		   <label for="vegetable">2. There is a vegetable amoung these pictures, which kind of vegetable is it? </label>
+  			<br>
+			<input type="text" id="vegetable">
+		<br><br>
+		   <label for="insect">3. There is an insect amoung these pictures, which insect is it? </label>
+  			<br>
+			<input type="text" id="insect">
+		<br><br>
+		   <label for="pot">4. There is a piece of pottery amoung these pictures, which kind of pottery is it? </label>
+  			<br>
+			<input type="text" id="pot">
+		</div>
+	</article>
+	</div>
+
+	<div class="hidden" id="s8">
+		<header>
+			<h2>Memory Screen</h2>
+		</header>	
+
+		<article>
+		   <div class='row'>
+			<div class='column'>
+	   
+			<img src="https://www.colorpsychology.org/es/wp-content/uploads/2019/07/azul-color.png" width="500" height="300">
+			<br>
+
+		        </div>
+			
+			<div class='column'>
+			   <br><br>
+			   <label for="toy2">1. Which toy could be seen in the previous slide? </label>
+	  			<br>
+				<input type="text" id="toy2">
+	  		<br><br>
+			   <label for="vegetable2">2. Which kind of vegetable could be seen in the previous slide? </label>
+	  			<br>
+				<input type="text" id="vegetable2">
+			<br><br>
+			   <label for="insect2">3. Which insect could be seen in the previous slide? </label>
+	  			<br>
+				<input type="text" id="insect2">
+			<br><br>
+			   <label for="pot2">4. Which kind of pottery could be seen in the previous slide ? </label>
+	  			<br>
+				<input type="text" id="pot2">
+			</div>
+		</article>	
+	</div>
+
+	<div class="hidden" id="s9">
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+			<h2>Memory Screen</h2>
+		</header>
+
+		<article>
+		   <div class='row'>
+			<div class='column'>
+			<img src="https://www.boatjump.com/wp-content/uploads/2020/02/Ima%CC%81genes-blog-1.png" width="300" height="250"> 
+			
+			<img src="https://images.unsplash.com/photo-1557401622-cfc0aa5d146c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80" width="300" height="250"> 
+			
+			<br>
+			<img src="https://chrimson.cn/wp-content/uploads/2020/11/wdma-davao-city-latest-design-teak-wood-front-flush-door-design_62093580491-2.jpg" width="300" height="250">
+
+			<img src="https://thumbs.dreamstime.com/z/fuego-de-armas-ca%C3%B1%C3%B3n-tiroteo-ca%C3%B1ones-antiguos-vectoriales-con-arsenal-bolas-aislado-en-fondo-blanco-169817870.jpg" width="300" height="250">
+			<br>
+
+		        </div>
+			
+			<div class='column'>
+			   <br><br><br><br><br><br><br>
+			   <label for="boat">1. There is a kind of a boat amoung these pictures, which kind of a boat is it? </label>
+	  			<br>
+				<input type="text" id="boat" >
+	  		<br><br>
+			   <label for="bird">2. There is a bird amoung these pictures, which kind of bird is it? </label>
+	  			<br>
+				<input type="text" id="bird" >
+			<br><br>
+			   <label for="house">3. There is a house element amoung these pictures, which house element is it? </label>
+	  			<br>
+				<input type="text" id="house" >
+			<br><br>
+			   <label for="weapon">4. There is a weapon amoung these pictures, which kind of weapon is it? </label>
+	  			<br>
+				<input type="text" id="weapon" >
+			</div>
+		</article>
+	</div>
+
+	<div class="hidden" id="s10">
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+		<h2>Memory Screen</h2>
+		</header>
+
+		<article>
+		   <div class='row'>
+			<div class='column'>
+	   
+			<img src="https://www.colorpsychology.org/es/wp-content/uploads/2019/07/azul-color.png" width="500" height="300">
+			<br>
+
+		        </div>
+			
+			<div class='column'>
+			   <br><br>
+			   <label for="boat2">1. Which kind of boat could be seen in the previous slide? </label>
+	  			<br>
+				<input type="text" id="boat2">
+	  		<br><br>
+			   <label for="bird2">2. Which kind of bird could be seen in the previous slide? </label>
+	  			<br>
+				<input type="text" id="bird2" >
+			<br><br>
+			   <label for="house2">3. Which house element could be seen in the previous slide? </label>
+	  			<br>
+				<input type="text" id="house2" >
+			<br><br>
+			   <label for="weapon2">4. Which kind of weapon could be seen in the previous slide ? </label>
+	  			<br>
+				<input type="text" id="weapon2">
+			</div>
+		</article>
+	</div>	
+
+	<div class="hidden" id="s11">
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+		<h2>Memory Screen</h2>
+		</header>
+
+		<article>
+		   <p>Which of the following sequences correcponds to the backward list of months?:</p>
+		 
+	  		
+	  		<p>A) Dicember, November, September, August, October, July, June, May, April, March, February, January</p>
+			<br>
+	  		<p>B) Dicember, November, October, September, August, July, June, May, April, March, February, January</p>
+			<br>
+	  		<p>C) Dicember, November, September, August, October, July, June, March, April, May, February, January</p>
+			<br><br>
+
+			<label for="choice">Choose the correct sequence: </label>
+  		    	<select id="choice">
+	    			<option value="a">A</option>
+	    			<option value="b">B</option>
+	    			<option value="c">C</option>
+  		     	</select>
+
+			<p id="demo"></p>
+  	   
+	</article>
+
+	</div>
+
+	<div class="hidden" id="s12">
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+			<h2>Memory Screen</h2>
+		</header>
+
+			   <article>
+					<p>	In the previous sections you saw several blocks with 4 pictures. PLease write down all the elements of the pictures that you can remember from each block. Once you can´t remember any more pictures move on. Please don´t take too much thinking of your answers.</p>
+					<br>
+				    
+					<div class='column'>
+						<label for="block1">1. First block pictures:</label><br><br>
+			  			<textarea id="block1" rows="4" cols="50"></textarea>
+			  			<br><br>
+						<label for="block2">2. Second block pictures:</label><br><br>
+			  			<textarea id="block2" rows="4" cols="50"></textarea>
+			  			<br><br>
+					</div>
+					
+					<div class='column'>
+						<label for="block3">3. Third block pictures:</label><br><br>
+			  			<textarea id="block3" rows="4" cols="50"></textarea>
+			  			<br><br>
+						<label for="block4">4. Fourth block pictures:</label><br><br>
+			  			<textarea id="block4" rows="4" cols="50"></textarea>
+			  			<br><br>
+					</div>
+  		
+	   			</article>
+	</div>
+
+	<div class="hidden" id="s13">
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+			<h2>Memory Screen</h2>
+		</header>	
+
+		<article>
+			<p>In case you couldn´t remember some of the pictures we will give you a hint by asking specifically for the objects. Note that if you remembered all of the elements you can skip this part, just press submit.</p>
+			<br>
+		    
+			<div class='column'>
+				<p>1.First Block</p>
+				 <br>
+			   	<label for="fruit3">Which fruit could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="fruit3" >
+	  			<br><br>
+			  	 <label for="animal3">Which kind of animal could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="animal3" >
+				<br><br>
+			   	<label for="bpart3">Which body part could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="bpart3"  >
+				<br><br>
+			   	 <label for="furniture3">Which kind of furniture could be seen in the previous slide ? </label>
+	  				<br>
+					<input type="text" id="furniture3"  >
+			</div>
+			
+			<div class='column'>
+				<p>2.Second Block</p>
+				 <br>
+			   	<label for="clothes3">Which clothing item could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="clothes3" >
+	  			<br><br>
+			   	<label for="tool3">Which kind of tool could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="tool3"  >
+				<br><br>
+			   	<label for="instrument3">Which musical instrument could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="instrument3" >
+				<br><br>
+			   	<label for="vehicle3">Which kind of vehicle could be seen in the previous slide ? </label>
+	  				<br>
+					<input type="text" id="vehicle3" >
+			</div>
+	  		
+			<div class='column'>
+				<p>3. Third Block</p>
+				 <br>
+			   	<label for="toy3">Which toy could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="toy3" >
+	  			<br><br>
+			   	<label for="vegetable3">Which kind of vegetable could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="vegetable3"  >
+				<br><br>
+			   	<label for="insect3">Which insect could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="insect3" >
+				<br><br>
+			   	<label for="pottery3">Which kind of pottery could be seen in the previous slide ? </label>
+	  				<br>
+					<input type="text" id="pot3" >
+			</div>
+
+			<div class='column'>
+				<p>4. Fourth Block</p>
+				 <br>
+			   	<label for="boat3">Which kind of boat could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="boat3"  >
+	  			<br><br>
+			  	<label for="bird3">Which kind of bird could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="bird3"  >
+				<br><br>
+			   	<label for="house3">Which house element could be seen in the previous slide? </label>
+	  				<br>
+					<input type="text" id="house3" >
+				<br><br>
+			   	<label for="weapon3">Which kind of weapon could be seen in the previous slide ? </label>
+	  				<br>
+					<input type="text" id="weapon3" >
+			</div>
+		</article>	
+	</div>
+
+
+	<div class="hidden" id="s14">	
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+
+		<header>
+			<h2>Clock Drawing Screen</h2>
+		</header>
+
+	
+		<article>
+			
+			<p>Now, please draw a clock with all its numbers. Next represent the clock hands marking 20 minutes to 4 o´clock. Once you have finished download the image.</p>
+				<canvas id="canvas" width="600" height="400" style="background-color: #e0e2e4"></canvas>
+					<p>
+						<input type="button" id="download" value="Download Image">
+						<input type="button" id="clear" value="Clear Canvas">
+					</p>
+					<script type="text/javascript">
+						let ctx;
+						let canvas;
+						let pos = {x:0, y:0};
+
+						window.addEventListener('load', (event) => {
+							init();
+						});
+
+						function init(){
+							canvas = document.getElementById('canvas');
+							ctx = canvas.getContext('2d');
+							canvas.addEventListener('mousemove', draw);
+							canvas.addEventListener('mousedown', setPosition);
+							canvas.addEventListener('mouseenter', setPosition);
+							let download = document.getElementById('download');
+							download.addEventListener('click', downloadCanvas);
+							let clear = document.getElementById('clear');
+							clear.addEventListener('click', clearCanvas);
+						}
+
+						function clearCanvas(){
+							ctx.clearRect(0, 0, canvas.width, canvas.height);
+						}
+
+						function setPosition(e) {
+							pos.x = e.clientX - canvas.offsetLeft;
+							pos.y = e.clientY - canvas.offsetTop;
+						}
+
+						function draw(e) {
+							// mouse left button must be pressed
+							if (e.buttons !== 1) return;
+							ctx.beginPath(); // begin
+							ctx.lineWidth = 5;
+							ctx.lineCap = 'round';
+							ctx.strokeStyle = '#c0392b';
+							ctx.moveTo(pos.x, pos.y); // from
+							setPosition(e);
+							ctx.lineTo(pos.x, pos.y); // to
+							ctx.stroke(); // draw it!
+						}
+
+						//https://codepen.io/joseluisq/pen/mnkLu
+						function downloadCanvas() {
+							let filename = "canvas.png"
+							/// create an "off-screen" anchor tag
+							var lnk = document.createElement('a'), e;
+
+							/// the key here is to set the download attribute of the a tag
+							lnk.download = filename;
+
+							/// convert canvas content to data-uri for link. When download
+							/// attribute is set the content pointed to by link will be
+							/// pushed as "download" in HTML5 capable browsers
+							lnk.href = canvas.toDataURL("image/png;base64");
+
+							/// create a "fake" click-event to trigger the download
+							if (document.createEvent) {
+							e = document.createEvent("MouseEvents");
+							e.initMouseEvent("click", true, true, window,
+							                 0, 0, 0, 0, 0, false, false, false,
+							                 false, 0, null);
+							lnk.dispatchEvent(e);
+							} else if (lnk.fireEvent) {
+								lnk.fireEvent("onclick");
+							}
+						}
+					</script>
+		</article>	
+	</div>
+
+	<div class="hidden" id="s15">
+		<img src="https://servicios.ceu.es/RedExpertos/imagenes/logo-fundacion-ceu.gif">
+		<header>
+			<h2>Congratulations You Have Finised The Test!</h2>
+		</header>
+		
+			<article>
+				
+				<button class="button button" id="downloadResults">Download Results</button>
+				
+			</article>	
+		
+		
+	</div>
+
+	<footer><button class="button button" id="button">Next</button></footer>
+	
+
+	<script type="text/javascript">
+		const SECTION_MAX = 15;
+		let data = "";
+		window.addEventListener('load', function(e){
+
+			init1();
+			//Código que quiera ejecutar al iniciar
+			let button = document.getElementById('button');
+			let section = 1;
+
+			//variable para guardar el string de los resultados
+			let time = new Date();
+			button.addEventListener('click', function(e){
+				console.log(e);
+				if(section != SECTION_MAX){
+					document.getElementById('s'+section).classList.toggle('hidden');
+					section++;
+					document.getElementById('s'+section).classList.toggle('hidden');
+					//guardar todo en el ultimo boton no tiene porque ir aqui
+				}
+				if (section == SECTION_MAX){
+					document.getElementById('button').style.visibility = 'hidden';
+					data += "-----------------------------------------------------------\n";
+					data += "Orientation test:\n\n"
+					const d = new Date();
+
+					data += "Actual Date: " + d.getDate() + "/" + d.getUTCMonth() + "/" + d.getFullYear() + "\n";
+					data += "Actaul Hour: " + d.getHours() + ":" + d.getMinutes() + "\n\n"; 
+					data += "Chosen month: " + document.getElementById('month').value + " (5 points for every month of difference. Max points 30.)\n";
+					data += "Chosen day: " + document.getElementById('day').value + " (1 point for every day of difference. Max points 15.)\n";
+					data += "Chosen year: " +document.getElementById('year').value + " (10 point for every year of difference. Max points 60.)\n";
+					data += "Chosen weekday: " + document.getElementById('day').value + " (1 point for every day of difference. Max points 15.)\n";
+					data += "Chosen hour: " + document.getElementById('hour').value + " (1 point for every 30 minutes of difference. Max points 5)\n\n\n";
+					//console.log(data);
+					
+					//valores para la seccion memory1
+					data += "-----------------------------------------------------------\n";
+					data += "-----------------------------------------------------------\n";
+					data += "Memory test:\n\n"
+					data += "-----------------------------------------------------------\n First block of pictures";
+					data += "Fruit: " + document.getElementById('fruit').value +" \n";
+					data += "Animal: " + document.getElementById('animal').value + "\n";
+					data += "Body Part: " + document.getElementById('bpart').value +"\n";
+					data += "Furniture: " + document.getElementById('furniture').value + "\n\n";
+					//console.log(data);
+
+					//valores para la seccion memory2
+					
+					data += "Fruit without a card: " + document.getElementById('fruit2').value +" \n";
+					data += "Animal without a card:: " + document.getElementById('animal2').value + "\n";
+					data += "Body Part without a card:: " + document.getElementById('bpart2').value +"\n";
+					data += "Furniture without a card:: " + document.getElementById('furniture2').value + "\n\n\n\n";
+					//console.log(data);
+
+					//valores para la secion de memory3
+					data += "-----------------------------------------------------------\n Second block of pictures\n";
+					data += "Tool: " + document.getElementById('tool').value +" \n";
+					data += "Clothe: " + document.getElementById('clothes').value + "\n";
+					data += "Music Instrument: " + document.getElementById('instrument').value +"\n";
+					data += "Vehicle: " + document.getElementById('vehicle').value + "\n\n";
+					//console.log(data);
+
+					//valores para la secion de memory4
+					
+					data += "Tool without a card: " + document.getElementById('tool2').value +" \n";
+					data += "CLothe without a card: " + document.getElementById('clothes2').value + "\n";
+					data += "Music Instrument without a card: " + document.getElementById('instrument2').value +"\n";
+					data += "Vehicle without a card: " + document.getElementById('vehicle2').value + "\n\n\n\n";
+					//console.log(data);
+
+					data += "-----------------------------------------------------------\n Third block of pictures \n";
+					//valores para la secion de memory6
+					data += "Toy: " + document.getElementById('toy').value +" \n";
+					data += "Vegegtable: " + document.getElementById('vegetable').value + "\n";
+					data += "Insect: " + document.getElementById('insect').value +"\n";
+					data += "Pot: " + document.getElementById('pot').value + "\n\n";
+					//console.log(data);
+
+					//valores para la secion de memory7
+
+					data += "Toy without a card: " + document.getElementById('toy2').value +" \n";
+					data += "Vegetable without a card: " + document.getElementById('vegetable2').value + "\n";
+					data += "Insect without a card: " + document.getElementById('insect2').value +"\n";
+					data += "Pot without a card: " + document.getElementById('pot2').value + "\n\n\n\n";
+					//console.log(data);
+
+					//valores para la secion de memory8
+					data += "-----------------------------------------------------------\n Fourth block of pictures \n";
+					data += "Boat: " + document.getElementById('boat').value +" \n";
+					data += "Bird: " + document.getElementById('bird').value + "\n";
+					data += "House element: " + document.getElementById('house').value +"\n";
+					data += "Weapon: " + document.getElementById('weapon').value + "\n\n";
+					//console.log(data);
+
+					//valores para la secion de memory9
+					
+					data += "Boat without a card: " + document.getElementById('boat2').value +" \n";
+					data += "Bird without a card: " + document.getElementById('bird2').value + "\n";
+					data += "House element without a card: " + document.getElementById('house2').value +"\n";
+					data += "Weapon without a card: " + document.getElementById('weapon2').value + "\n\n\n\n";
+					
+
+					data += "-----------------------------------------------------------\n";
+					data += "Posible month sequences: \n A) Dicember, November, September, August, October, July, June, May, April, March, February, January \n B) Dicember, November, October, September, August, July, June, May, April, March, February, January \n C) Dicember, November, September, August, October, July, June, March, April, May, February, January \n";
+					data += "Sequence chosen by the patient: " + document.getElementById('choice').value + "\n\n";
+					
+					
+
+					//valores para la secion de Evocacion de Memoria
+					data += "-----------------------------------------------------------\n";
+					data += "Memory evocation the patient is asked about all the pictures without hints\n\n"
+					data += "First set of pictures patient response: \n" + document.getElementById('block1').value + "\n";
+					data += "Second set of pictures patient response: \n" + document.getElementById('block2').value + "\n";
+					data += "Third set of pictures patient response: \n" + document.getElementById('block3').value + "\n";
+					data += "Fourth set of pictures patient response: \n" + document.getElementById('block4').value + "\n\n";
+					
+					//Valores para la seccion de Memory Hint
+					//block1
+					data += "-----------------------------------------------------------\n";
+					data += "Memory evocation the patient is asked about all the pictures with hints\n\n"
+					data += "First set of pictures patient response with hints: " + document.getElementById('fruit3').value + " " + document.getElementById('animal3').value + " " + document.getElementById('bpart3').value + " " + document.getElementById('furniture3').value + "\n";
+					
+					//block2
+					data += "Second set of pictures patient response with hints: " + document.getElementById('tool3').value + " " + document.getElementById('clothes3').value + " " + document.getElementById('instrument3').value + " " + document.getElementById('vehicle3').value + "\n";
+
+					//block3
+					data += "Third set of pictures patient response with hints: " + document.getElementById('toy3').value + " " + document.getElementById('vegetable3').value + " " + document.getElementById('insect3').value + " " + document.getElementById('pot3').value + "\n";
+					
+					//block4
+					data += "Fourth set of pictures patient response with hints: " + document.getElementById('boat3').value + " " + document.getElementById('bird3').value + " " + document.getElementById('house3').value + " " + document.getElementById('weapon3').value + "\n\n";
+					
+					if (section == 14){
+					 console.log(data);
+					};
+
+
+					//tiempo que se ha tardado en hacer el test
+					const finishTime = new Date();
+					console.log("Has tardado " + (finishTime - time) + " ms. en avanzar de sección.");
+					
+
+					//no me sale en minutos
+					let minutes = (finishTime - time)/ 60000;	
+					data += "The test was done in: " + minutes + " minutes\n";	
+					console.log(minutes);
+				}
+				//codigo para coger los valores de la seccion de orientecion
+				
+					//funcion para saltar de pantalla a los 45 seg en la seccion11
+					if (section == 11){
+						setTimeout(function() {
+							if (section == 11){
+								document.getElementById('s'+section).classList.toggle('hidden');
+								section++;
+								document.getElementById('s'+section).classList.toggle('hidden');}
+							
+						},  45000);
+							
+						};
+
+					
+				
+			});
+		});
+
+					function init1(){
+						let downloadResults = document.getElementById('downloadResults');
+						downloadResults.addEventListener('click', downloadFile);
+					}
+
+					function downloadFile() {
+						console.log(data);
+						const a = document.createElement('a');
+
+					  const file = new Blob([data], {type: 'text/plain'});
+					  a.href = URL.createObjectURL(file);
+					  a.download = 'data.txt';
+					  a.click();
+					  URL.revokeObjectURL(a.href); 
+					};
+	</script>
+</body>
+</html>
